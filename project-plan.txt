@@ -1,0 +1,30 @@
+// Create a calculator.
+// arrange buttons for the numbers
+// and for the arithetic operators + - * /
+// also write option for clearing the current output
+// output: above all buttons p tag which contains the current output on each button click
+// EXAMPLE:
+// user clicks: 5
+//  - result: 5
+// user clicks: +
+//  - result: 5 +
+// user clicks: 2
+//  - result: 5 + 2
+// user clicks: =
+//  - result: 5 + 2 = 7
+
+//  After = is clicked current state of the two numbers is cleared and waiting for new button clicks on the numbers
+//  if new numbers is clicked - keep the previous result in a list above the current output
+
+//  Constraints:
+//   - we cannot start with an arithmetic operator
+//   - we cannot add arithemtic operator after arithemtic operator
+//   - show error is user is traying to divide in zero
+
+//  *Our calculator will have a battery charged by the sun.
+//  create percentage about it which will be 50% and will drop on every "=" click with 10%
+//  if it is daytime raise the percentage on every 5 secons with 2 percents
+//  if it is night time do nothing
+//  and if the battery drops - show on the output PLEASE CHARGE/COME BACK IN THE MORNING
+
+//  *Add option for float numbers
